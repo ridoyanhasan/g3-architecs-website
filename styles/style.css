@@ -91,8 +91,23 @@ main{
     font-size: 1rem;
     font-weight: 400;
 }
+/* facts section */
+.facts-title{
+    color:#131313;
+font-size: 45px;
+font-weight: 700;
+}
+.fact-description{
+    color: #727272;
+font-size: 16px;
+font-weight: 400;
+
+}
 /* responsive mobile*/
 @media screen and (max-width:576px) {
+    main{
+        margin: 0px 50px;
+    }
     header{
         padding: 20px;
     }
